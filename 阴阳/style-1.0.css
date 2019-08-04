@@ -1,0 +1,46 @@
+.yinyang {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #000000 49%,#ffffff 49%,#ffffff 50%);
+    margin: 200px auto;
+}
+.yin {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+.yang {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.yin .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+     left: 40px;
+    top: 40px;
+}
+.yang .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+body {
+    background-color: #aaa;
+}
